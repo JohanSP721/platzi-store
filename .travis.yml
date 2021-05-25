@@ -14,7 +14,7 @@ deploy:
     branch: master
 git:
   depth: 3
-lenguage: node_js
+language: node_js
 node_js:
   - "12"
 script:
