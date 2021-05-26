@@ -19,3 +19,11 @@ node_js:
   - "12"
 script:
   - "yarn build"
+
+notifications:
+  email:
+    recipients:
+      . johansarmiento_21@live.com
+    on_success: always
+    on_failure: always
+    
